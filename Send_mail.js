@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 
-const filePath = "D:\\Desktop\\send_mail.txt";
+const filePath = "patho/of/the/notepad";
 
 
 const sendEmail = () => {
@@ -37,14 +37,14 @@ const sendEmail = () => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "rahulyadav252424@gmail.com", // Your email
-        pass: "ctik hjba yral zhla", // Your app password
+        user: "sender_mail", // Your email
+        pass: "seder app password", // Your app password
       },
     });
 
     
     const mailOptions = {
-      from: "rahulyadav252424@gmail.com", // Sender address
+      from: "sender_mail", // Sender address
       to: reciever, // Recipient address
       subject: subject, // Subject of the email
       text: message, // Plain text body
