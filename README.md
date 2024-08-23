@@ -17,10 +17,10 @@ This script uses Node.js and Nodemailer to send emails with content and attachme
 ## Text File Format
 
 The text file (`send_mail.txt`) should follow this format:
-Reciever mail = recipient@example.com
-subject = Your Email Subject
-message = Your email message goes here.
-attatchment = D:\path\to\your\attachment.txt
+Reciever mail = {recipient@example.com}
+subject = {Your Email Subject}
+message = {Your email message goes here.}
+attatchment = {D:\path\to\your\attachment.txt}
 
 - **Reciever mail**: The email address of the recipient.
 - **subject**: The subject line of the email.
